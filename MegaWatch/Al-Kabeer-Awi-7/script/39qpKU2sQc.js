@@ -14,7 +14,7 @@ function server4(){
 	document.getElementById("Ep1").setAttribute("src", " ");
 }
 function randA(){
-	let i = RI(0, 6);
+	let i = RI(0, 5);
 	const links = ["https://75.cn.eu.org/MegaWatch/Al-Kabeer-Awi-7/4nJVQrVpvU.html", 
 		"https://cooralive.ml/MegaWatch/Al-Kabeer-Awi-7/4nJVQrVpvU.html", 
 		"https://psyplay.ga/MegaWatch/Al-Kabeer-Awi-7/4nJVQrVpvU.html",
