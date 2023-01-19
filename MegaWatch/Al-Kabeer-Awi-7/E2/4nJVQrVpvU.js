@@ -2,16 +2,16 @@ function RI(min, max){
 		return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 function server1(){
-	document.getElementById("Ep2").setAttribute("src", " ");
+	document.getElementById("Ep2").setAttribute("src", "https://www.youtube.com/embed/Axs3ta4KD48");
 }
 function server2(){
-	document.getElementById("Ep2").setAttribute("src", " ");
+	document.getElementById("Ep2").setAttribute("src", "https://www.youtube.com/embed/Axs3ta4KD48");
 }
 function server3(){
-	document.getElementById("Ep2").setAttribute("src", " ");
+	document.getElementById("Ep2").setAttribute("src", "https://www.youtube.com/embed/Axs3ta4KD48");
 }
 function server4(){
-	document.getElementById("Ep2").setAttribute("src", " ");
+	document.getElementById("Ep2").setAttribute("src", "https://www.youtube.com/embed/Axs3ta4KD48");
 }
 function randB(){
 	let i = RI(0, 9);
