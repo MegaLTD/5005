@@ -45,11 +45,26 @@ h1{
   background-color: #202124; 
   border: 2px solid #f44336;
   color: white;
-  margin: 15px 100px;
+
 }
 
 .btn3:hover {
   background-color: #f44336;
+}
+
+.btn4 {
+  background-color: #202124; 
+  border: 2px solid #e7e7e7;
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.btn4:hover {
+  background-color: #e7e7e7;
+  color: black;
+  font-weight: bolder;
 }
 
 .im{
@@ -61,3 +76,19 @@ footer{
 	font-family: Changa;
 	text-align: center;
 }
+
+#bord1{
+	border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+#bord2{
+	border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+
+
+
+
+
+
