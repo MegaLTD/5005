@@ -1,7 +1,13 @@
-/*======= Font =======*/
-@import url('https://fonts.googleapis.com/css?family=Changa');
+/*======= Font =======
+@import url('https://fonts.googleapis.com/css?family=Changa'); */
 /*==============================*/
-
+@font-face {
+  font-family: 'Changa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/changa/v20/2-c79JNi2YuVOUcOarRPgnNGooxCZ62xcjLj9ytf.woff2) format('woff2');
+}
 body{
 	background-color: #202124;
 }
