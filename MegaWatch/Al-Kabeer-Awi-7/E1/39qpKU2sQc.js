@@ -13,7 +13,7 @@ function server3(){
 function server4(){
 	document.getElementById("Ep1").setAttribute("src", "https://www.youtube.com/embed/Axs3ta4KD48");
 }
-function randA(){
+function randA(x){
 	let i = RI(0, 9);
 	const links = ["https://75.cn.eu.org/MegaWatch/Al-Kabeer-Awi-7/E2/4nJVQrVpvU.html", 
 		"https://cooralive.ml/MegaWatch/Al-Kabeer-Awi-7/E2/4nJVQrVpvU.html",
@@ -25,6 +25,11 @@ function randA(){
 		"https://123.asso.eu.org/MegaWatch/Al-Kabeer-Awi-7/E2/4nJVQrVpvU.html",
 		"https://80.mk.eu.org/MegaWatch/Al-Kabeer-Awi-7/E2/4nJVQrVpvU.html",
 		"https://99.ru.eu.org/MegaWatch/Al-Kabeer-Awi-7/E2/4nJVQrVpvU.html"];
-
-	window.location.href=links[i];
+	if(x==1){
+		window.location.href=links[i];
+	}else{
+		if(x==0){
+			window.location.href="#";
+		}
+	}
 }
