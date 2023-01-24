@@ -14,8 +14,9 @@ p{
 }
 img{
 	display: block;
-  margin: 25px auto;
-  width: 300px;
+  	margin: 25px auto;
+  	width: 300px;
+	height: auto;
 }
 h1{
 	text-align: right;
