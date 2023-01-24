@@ -14,9 +14,8 @@ p{
 }
 img{
 	display: block;
-  	margin: 25px auto;
-  	width: 300px;
-	height: auto;
+  margin: 25px auto;
+  width: 300px;
 }
 h1{
 	text-align: right;
@@ -98,11 +97,10 @@ iframe{
   	margin-right: 4%;
 	}
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 510px) {
 	.btn{
   	  font-size: 12px;
   	  padding: 10px;
-
 	}
 	.btn4 {
   	margin-left: 1%;
