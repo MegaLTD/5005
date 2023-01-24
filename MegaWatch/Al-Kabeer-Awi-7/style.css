@@ -44,15 +44,23 @@ h1{
 .btn2:hover {
   background-color: #008CBA;
 }
+
+.btn2:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px; 
+}
+
 .btn3 {
   background-color: #202124; 
   border: 2px solid #f44336;
   color: white;
-
 }
 
 .btn3:hover {
   background-color: #f44336;
+}
+
+.btn3:focus {
+  box-shadow: rgba(255,0,0, .1) 0 0 0 1px inset, rgba(255,0,0, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(220,20,60, .3) 0 0 0 4px; 
 }
 
 .btn4 {
@@ -68,6 +76,10 @@ h1{
   background-color: #e7e7e7;
   color: black;
   font-weight: bolder;
+}
+
+.btn4:focus {
+  box-shadow: rgba(212, 212, 212, .1) 0 0 0 1px inset, rgba(212, 212, 212, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(212, 212, 212, .3) 0 0 0 4px; 
 }
 
 .im{
